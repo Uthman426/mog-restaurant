@@ -355,7 +355,7 @@
   width: 70%;
 }
 .socials{
-  height: 5vh;
+  height: 7vh;
 }
 .socials i{
   margin-top: 13px;
@@ -366,7 +366,6 @@
   margin-top: 2.5em !important;
 }
 .footer_bottom{
-  background-color: aqua;
   width: 90% important;
   text-align: center;
 
