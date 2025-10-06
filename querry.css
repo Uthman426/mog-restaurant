@@ -3,23 +3,20 @@
   body {
     padding: 0px;
     margin: 0px;
-    width: 100%;
-    margin: auto;
-    overflow: auto;
-    
-  }
+    }
   .topper-section{
-    
+    width: 100%;
+    overflow: hidden;
     
   }
   .topper1{
-    height: 12vh;
+    height: 10vh;
   }
   .topper{
     width: 100%;
     display: flex;
     gap: 40%;
-    margin-top: 20px;
+    margin-top: 14px;
     
   }
 
@@ -30,8 +27,8 @@
     margin-right: 10%;
   }
   #hamburger{
-    font-size: 30px;
-    margin-top: 8px;
+    font-size: 25px;
+    margin-top: 5px;
   }
 
   .navbar_container {
