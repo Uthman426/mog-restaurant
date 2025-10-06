@@ -1,0 +1,379 @@
+/* 🌍 Responsive Styles for Mog's Kitchen */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  .topper-section{
+    overflow: hidden;
+  }
+  .topper1{
+    height: 12vh;
+  }
+  .topper{
+    width: 100%;
+    display: flex;
+    gap: 40%;
+    margin-top: 20px;
+    
+  }
+
+ 
+
+  .hamburger {
+    display: block; /* show hamburger on mobile */
+    margin-right: 10%;
+  }
+  #hamburger{
+    font-size: 35px;
+    margin-top: 10px;
+  }
+
+  .navbar_container {
+    display: none; /* hide menu by default */
+  }
+
+  .navbar_container.active {
+    display: block; /* show menu when active */
+    position: absolute;
+    top: 120px; /* below header */
+    margin: auto;
+    text-align: center;
+    margin-left: -9%;
+    
+    z-index: 1000;
+    width: 95%;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    border-radius: 10px;
+
+
+    
+  
+  }
+
+  .navbars {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin: auto;
+    
+    
+  }
+  .navbars li{
+     background-color: whitesmoke;
+     width: 100%;
+     margin: auto;
+  }
+
+  .navbars li a {
+    text-align: center;
+    padding: 12px 5px;
+   
+    display: block;
+    font-size: 18px;
+    
+    
+    color: black;
+    
+  }
+
+
+  .logo {
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-right: 10%;
+    margin-top: 20px;
+    
+  }
+
+  .logo-image {
+    margin: auto;
+    width: 80%;
+    height: 200px;
+    background-size: 80% 25%;
+
+    
+  }
+
+  #name2 {
+    font-size: 10px;
+    width: 20%;
+    margin: 0;
+    margin-left: -50%;
+  }
+  #kitchen{
+    font-size: 20px;
+    
+  }
+
+  /* --- HOME --- */
+  .home {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .home_left {
+    order: 1;
+    width: 100%;
+    height: 53vh;
+    text-align: center;
+    
+    
+  }
+  .writeup_container{
+    width: auto;
+    height: 30vh;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    top: -100px;
+    left: -50px;
+     
+  }
+  #writeup{
+    font-size:50px ;
+    font-family: 'Pacifico', cursive;
+   
+  }
+  .writeup_container h6{
+     margin-left: 50px;
+     font-size: 25px;
+     
+  }
+  #reservation_button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: -10px;
+  }
+
+  .home_right  {
+    order: 2;
+    width: 100%;
+    height: 43vh;
+    margin-top: vh;
+    
+  }
+  #slider {
+    width: 100%;
+    height: 43vh;
+  }
+  .line_about{
+    width: 100%;
+    height: auto;
+    margin-left: 3%;
+  }
+  .line{
+    width:8% ;
+    margin-left: 0%;
+  }
+  #us{
+    margin-left: 0px;
+    width:85%;
+  }
+  .About{
+    flex-direction: column;
+    width: 100%;
+    margin-top: -40px;
+  }
+  .after_about{
+    width: 50%;
+    font-size: 30px;
+    
+  }
+  .about_paragraph{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .about_left{
+    width: 90%;
+    padding: 20px;
+    }
+  .three_foodcontainer{
+    gap: 23px;
+  }
+  .about_right{
+    
+    width: 100%;
+    margin: auto;
+  }
+  .chef_image {
+   
+  }
+  .chef_image img{
+     width: 100%;
+     height: 250px;
+     margin-top: -5em;
+    margin-left: 0px;
+    background-position: center
+}
+.play{
+    margin-left: 45%;
+    margin-top: -10rem;
+    font-size: 10px;
+}
+
+  #menu{
+    position: relative; 
+    margin-top: 20rem; 
+  }
+  .menu_writeup{
+    width: 100%;
+    margin-top: -20px;
+  }
+  .menu_list{
+    height: 5em;
+  }
+  .food{
+    flex: 0 0 100%;
+  }
+  #price_container{
+    width: 20%;
+    height: 75px;
+  }
+  #price{
+    margin-top: 20px;
+  }
+  .foodarraycontrol{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    margin-left: 40%;
+    margin-top: 20px;
+  }
+  #chefs{
+    margin-top: -10em;
+  }
+  #chef_heading2{
+    width: 100%;
+    font-size:30px ;
+  }
+  .the_chefs{
+   flex-direction: column;
+   gap: 20px;
+  }
+  .chefimage_container{
+    width: 100%;
+  }
+  #contact{
+    position: relative;
+    margin-top: 52em;
+  }
+  .contactus{
+    flex-direction: column;
+    height: 95em;
+  }
+  .contactlinetop{
+    margin-top: -10em;
+    width: 100%;
+     color:  #8eec0a;
+  }
+  .contact_line{
+   width:8% ;
+   margin-left: 0%;
+   background-color:  #8eec0a ; 
+  }
+  .contact_left{
+    width: 100%;
+    padding: 0;
+  }
+  #phone_email{
+    flex-direction: column;
+    width: 100%;
+  }
+  .reservua_form{
+    width: 100%;
+    margin-bottom: 5em;
+    height: 35em;
+  }
+  #features{
+    margin-top: 50em;
+  }
+  #phone_number{
+    width: 100%;
+    height: 350px ;
+    border-radius: 10px;
+    font-size: 20px;
+
+  }
+ .reservua{
+  height: 95em;
+ } 
+ .reservua .overlay{
+  height: 95em;
+  z-index: 1;
+ }
+.email_number{
+  margin-top: 50px ;
+}
+#awesomecontainer{
+  height: 70px;
+}
+#envelop_awesome{
+  margin-top: 20px !important ;
+  font-size: 30px !important;
+
+}
+#emails{
+  font-size: 30px ;
+}
+
+.special_meal{
+  margin-top: 1px;
+}
+#features{
+ margin-top: 0em;
+}
+.special_meal{
+  width: 80%;
+}
+.foot{
+  width: 100%;
+  height: 30em;
+}
+.footer{
+  flex-direction: column;
+  height: 18em;
+  width: 70%;
+}
+.footer_socials{
+  margin-top: 2em;
+  width: auto;
+}
+.socials{
+  height: 6vh;
+}
+.socials i{
+  margin-top: 15px;
+}
+.loggo{
+  width: 80%;
+  margin: auto;
+  margin-top: 2.5em !important;
+}
+.footer_bottom{
+  text-align: center;
+
+}
+#footer_writeup{
+  color: black;
+  margin-top: 7em !important;
+}
+
+
+
+
+  
+
+  
+
+}

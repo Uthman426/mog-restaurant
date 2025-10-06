@@ -1,0 +1,42 @@
+{
+    "foods":[
+        {"price":"$10",
+         "src":"./img/jollof.jpeg",
+         "foodname":"JOLLOF RICE",
+         "foodwriteup":"One cannot think well, love well, sleep well, if one has not dined well. - Virginia Woolf"
+        },
+        {"price":"$5",
+         "src":"./img/ewaagoyin.jpeg ",
+         "foodname":"EWA AGOYIN",
+         "foodwriteup":"Let food be thy medicine and medicine be thy food. - Hippocrates"
+        },
+        {"price":"$6 ",
+         "src":"./img/pap and moi.jpeg",
+         "foodname":" PAP AND MOI MOI",
+         "foodwriteup":"People who love to eat are always the best people. - Julia Child"
+        },
+        {"price":" $17 ",
+         "src":"./img/abacha.jpeg ",
+         "foodname":"ABACHA",
+         "foodwriteup":"Food is our common ground, a universal experience. - James Beard"
+        },
+        {"price":" $14",
+         "src":"./img/iyan and egusi.jpg ",
+         "foodname":"IYAN & EGUSI",
+         "foodwriteup":"Life is uncertain. Eat dessert first. - Ernestine Ulmer"
+        },
+        {"price":" $2 ",
+         "src":"./img/ewaagoyin.jpeg ",
+         "foodname":" EWA AGOYIN",
+         "foodwriteup":"Tell me what you eat, and I will tell you what you are. - Jean Anthelme Brillat-Savarin"
+        },
+        {"price":"$7 ",
+         "src":"./img/eba and okro.jpeg",
+         "foodname":"EBA AND OKRO",
+         "foodwriteup":"First we eat, then we do everything else. - M.F.K. Fisher"
+        }
+    ]
+
+
+
+}

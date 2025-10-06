@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restuarant site</title>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://kit.fontawesome.com/bfafb9a0fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="querry.css">
+</head>
+
+<body>
+    <section class="topper-section">
+        <section class="allsection"  id="home" >
+            <div class="topper1">
+                <div class="topper">
+                    <div class="logo">
+                        <div class="logo-image">
+                        </div>
+                        <div id="name2"><span id="kitchen">Mog's <br> Kitchen</span> </div>
+                    </div>
+                    <div class="hamburger" >
+                        <button id="hamburger" >
+                            ☰
+                        </button>
+                    </div>
+                    <div class="navbar_container">
+                        <ul class="navbars">
+                            <li><a href="#home" class="nav-link">Home</a></li>
+                            <li><a href="#about" class="nav-link">About</a></li>
+                            <li><a href="#menu" class="nav-link">Menu</a></li>
+                            <li><a href="#chefs" class="nav-link">Chefs</a></li>
+                            <li><a class="dropdown" href="#features">Features</a></li>
+                            <li><a href="#contact" class="nav-link">Contact Us</a></li>
+
+                            <!-- <div id="dropdown-content">
+                <a href="#">Features 1</a>
+                <a href="#">Features 2</a>
+                <a href="#">Features 3</a>
+                <a href="#">Features 4</a>
+                </div> -->
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="home">
+                <div class="home_left">
+                    <div class="writeup_container">
+                        <h4 id="writeup">MOG's <br>
+                            Kitchen</h4>
+                        <h6>The Best Experience</h6>
+                         <button id="reservation_button">Make A Reservation</button>
+                        
+                    </div>
+
+                </div>
+                <div class="home_right">
+                    <div class="home_images">
+                        <img id="slider" src="img/modernkitchendesigninterior.jpg" alt="Slideshow Image" />
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="allsection"  id="about">
+            <div class="About_us">
+
+                <div class="line_about">
+
+                    <div class="line">
+
+                    </div>
+                    <h4 id="us"> ABOUT US</h4>
+
+
+
+
+                </div>
+                <div class="About">
+
+                    <div class="about_left">
+
+                        <h1 class="after_about">We Leave A Delicious Memory For You</h1>
+                        <p class="about_paragraph">Mog's Kitchen is one of the best returant out there whose goal is to
+                            provide you with Nigerian
+                            delicases carefully prepared in the Nigerian way.
+                            We are Equiped with Experienced and rightly trained chefs to give you he best taste at all
+                            time.
+                            <br>
+                            Please contact us for more information
+                        </p>
+                        <div class="three_foodcontainer">
+                            <div class="three_food"> <img src="img/chinese-vegetable-stew-tofu-with-berry-rice.jpg"
+                                    alt="">
+                            </div>
+                            <div class="three_food"> <img
+                                    src="img/fried-chicken-wings-with-fish-sauce-sweet-fish-sauce.jpg" alt=""></div>
+                            <div class="three_food"> <img src="img/romantic-dinner-with-glasses-wine.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="about_right">
+                        <div class="chef_image">
+                            <img src="img/professional-chef-preparing-food-kitchen.jpg" alt="">
+                            <div class="play">
+                                <a href="http://youtube.com"><i class="fa-solid fa-circle-play"
+                                        style="font-size: 60px; color:#8eec0a ;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+        </section>
+        <section class="allsection"  id="menu">
+            <div class="menu">
+                <div class="menu_contentContainer">
+                    <div class="line_about">
+
+                        <div class="line">
+
+                        </div>
+                        <h4 id="us"> OUR MENU </h4>
+                    </div>
+                    <div class="menu_writeup">
+                        <H1 class="after_about">Our selection of dishes with quality taste</H1>
+                    </div>
+                    <div class="menu_list">
+                        <div class="menu_array">
+                            <!-- <div class="food">
+                                
+                                <div id="price_container">
+                                    <p id="price">8 </p>
+                                </div>
+
+                                <div id="green_line"></div>
+                                <div class="food_details">
+                                    <h1 id="food_name"></h1>
+                                    <p id="food_writeup"></p>
+                                </div>
+
+                            </div> -->
+
+                        </div>
+                        <div class="foodarraycontrol">
+                            <button id="prevBtn"> <i class="fa fa-angle-left"></i></button>
+                            <button id="nextBtn"><i class="fa fa-angle-right"></i></button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+        <section class="allsection"  id="chefs">
+            <div class="chefs">
+                <div class="">
+                    <h5 id="chef_heading">
+                        OUR CHEFS
+                    </h5>
+                    <h1 id="chef_heading2">
+                        We offer the best ingredients for you
+                    </h1>
+                    <div class="the_chefs">
+                        <div class="chefimage_container">
+                            <div class="chef_images" id="chef_image1">
+
+                            </div>
+                            <h1 id="chef_name">
+                                Chef Nkechi
+                            </h1>
+                            <h4 id="chef_pos">
+                                Chief Chef
+                            </h4>
+                        </div>
+                        <div class="chefimage_container">
+                            <div class="chef_images" id="chef_image2">
+
+                            </div>
+                            <h1 id="chef_name">
+                                Chef Ruth
+                            </h1>
+                            <h4 id="chef_pos">
+                                Chef 2
+                            </h4>
+
+                        </div>
+                        <div class=" chefimage_container">
+                            <div class="chef_images" id="chef_image3">
+
+                            </div>
+                            <h1 id="chef_name">
+                                Chef Chioma
+                            </h1>
+                            <h4 id="chef_pos">
+                                Chef 2
+                            </h4>
+
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <section class="allsection"  id="contact">
+            <div class="reservua">
+                <div class="overlay">
+                    <div class="contactus">
+                        <div class="contact_left">
+                            <div class="contactlinetop">
+
+                                <div class="contact_line">
+
+                                </div>
+                                <div id="contacttop">CONTACT US </div>
+                            </div>
+                            <div class="">
+
+                                <h1 id="here">Here You Can Make A Reservation</h1>
+                                <h5 id="here_writeup">Food, in the end, in our own tradition,
+                                    is something holy. It's not about nutrients and calories.
+                                    It's about sharing. It's about honesty. It's about identity. - Louise Fresco.
+                                </h5>
+
+                            </div>
+                            <div id="phone_email">
+                                <div id="phone_number">
+                                    <div id="awesomecontainer">
+                                        <i class="fa fa-phone" id="envelop_awesome"
+                                            style="margin-top:15px;color: white ;font-size: 20px;"></i>
+                                    </div>
+
+                                    <p id="emails"> Phone Number</p>
+                                    <p>
+                                        09037132912 <br>
+                                        08125245566</p>
+                                </div>
+                                <div id="phone_number" class="email_number">
+                                    <div id="awesomecontainer">
+                                        <i class="fa fa-envelope" id="envelop_awesome"
+                                            style="margin-top:15px;color: white ;font-size: 20px;"></i>
+                                    </div>
+                                    <p id="emails"> Email</p>
+                                    <p>mogkitchen@gmail.com <br>
+                                        uthmanolaleke@gmail.com</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="reservua_form">
+
+                            <h2 class="table">Table Reservation</h2>
+                            <div class="under_reservation">
+                                <div class="reservation_inputs">
+
+                                    <div class="input_right">
+                                        <input id="c_name" name="customer_name"  type="text" placeholder="Your Name" required>
+                                        <input id="g_number" name="guest_count" type="number" placeholder="Number Of Guest" required>
+                                        <input id="r_date" name="reservation_date"  type="date" placeholder="Date">
+                                    </div>
+
+                                    <div class="input_left">
+                                        <input id="c_email" name="customer_email" type="email" placeholder="Your Email address*">
+                                        <input id="p_number" name="phone_number" type="tel" placeholder="Your Phone Number">
+                                        <input id="r_time" name="reservation_time" type="time" placeholder="time">
+
+                                    </div>
+                                </div>
+                                <div>
+                                    <input  name="message" id="message_input" type="text" placeholder="Message">
+                                </div>
+                               
+
+                            </div>
+
+
+
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="allsection"  id="features">
+            <div>
+                <div>
+
+                    <h5 id="chef_heading">
+                        MOG'S KITCHEN
+                    </h5>
+                    <h1 id="chef_heading2">
+                        This Week's Special Meal Offers
+                    </h1>
+                    <div class="special_meal">
+                        <div>
+                            <i class="fa-solid fa-mug-hot" style="color: #8eec0a; font-size: 30px;"></i>
+                            <p>Breakfast</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-burger" style="color: #8eec0a; font-size: 30px;"></i>
+                            <p>Lunch</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-pizza-slice" style="color: #8eec0a; font-size: 30px;"></i>
+                            <p>Dinner</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="allsection">
+            <div class="foot">
+                <div class="footer">
+                    <div class="footer_socials">
+                        <div class="socials">
+                            <i class=" fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="socials">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="socials">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+                        <div class="socials">
+                            <i class=" fa-brands fa-linkedin"></i>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="loggo">
+                            <div class="loggo-img">
+                                <img src="img/chef cap with white background.jpg" alt="">
+                            </div>
+                            <div id="name2foot"><span id="kit">Mog's <br> Kitchen</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="footer_bottom">
+                        <p>© 2025 Mog's Kitchen. All rights reserved.</p>
+                        <p>Designed by: <span id="my_name">Uthman Adeoye Olaleke</span> </p>
+                    </div>
+
+
+
+                </div>
+                <p id="footer_writeup">Food, in the end, in our own tradition, is something holy. It's not about
+                    nutrients and calories. It's about sharing. It's about honesty. It's about identity. - Louise
+                    Fresco.</p>
+
+        </section>
+
+    </section>
+
+
+
+
+
+</body><!-- 
+window.addEventListener("load", () => {
+  const slider = document.getElementById("slider");
+  const prevBtn = document.getElementById("prev");
+  const nextBtn = document.getElementById("next");
+
+  const imgList = [
+    "img/restaurantinterior.jpg",
+    "img/fried-chicken-wings.jpg",
+    "img/romantic-dinner-with.jpg",
+    "img/cheflogo.jpg"
+  ];
+
+  let current = 0;
+
+  function showImage(index) {
+    slider.src = imgList[index];
+  }
+
+  function nextImage() {
+    current = (current + 1) % imgList.length;
+    showImage(current);
+  }
+
+  function prevImage() {
+    current = (current - 1 + imgList.length) % imgList.length;
+    showImage(current);
+  }
+
+  nextBtn.addEventListener("click", nextImage);
+  prevBtn.addEventListener("click", prevImage);
+
+  // Optional: auto change every 5 seconds
+  setInterval(nextImage, 5000);
+});
+✅ 3. Optional CSS for Better Look
+css
+Copy
+Edit
+.home_images {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+#slider {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.controls button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+} -->
+ <script src="index.js"></script>
+</html>

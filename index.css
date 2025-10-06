@@ -1,0 +1,617 @@
+.topper section{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.topper{
+    height: 90px;
+    width: 80%;
+    display: flex;
+    margin-left: 5%;
+    
+}
+.topper1{
+    width: 100%;
+    position: fixed;
+    height: 85px;
+    z-index: 1000;
+    margin-top: -10px;
+    background-color: white;
+}
+.logo{
+    width: 30%;
+    height: 20px;
+}
+.logo-image{
+    height: 80px;
+    width: 40%;
+    background-image: url(img/chef\ cap\ with\ white\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: 50%,50%;
+    margin-top: 10px;
+    
+}
+#name1{
+    color: #8eec0a;
+    width: 10%;
+    height: 30px;
+    font-size: 30px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 130px; 
+    
+}
+/* #mog{
+    color: #8eec0a;
+    font-size: 32px;
+    margin-left: -55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+} */
+#kitchen{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#name2{
+    margin-left: 21%;
+    margin-top: -80px;
+    font-size: px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar_container{
+    width: 50%;
+}
+.navbars {
+    width: 100%;
+    display: flex;
+    margin-left: 45%;
+    margin-top: 35px;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navbars li a{
+  text-decoration: none; 
+  color: black;
+  
+}
+.navbars a.active{
+  color: #8eec0a;
+  font-size: 20px;
+  
+
+}
+.navbars li a:hover{
+  color: #b2f555;  
+}
+
+.features_opt{
+    border: none;
+    margin-left: 50%;
+}
+.home{
+    display: flex;
+    height: 45em;
+    padding: 0%;
+}
+.home_left{
+    background-color: #b2f555;
+    width: 33%;
+    padding: 0%;
+}
+.home_right{
+    width: 67%;
+
+}
+#slider{
+    height: 45em;
+    width: 100%;
+}
+.writeup_container{
+    width: 60%;
+    height: 200px;
+    margin-left: 110px;
+    margin-top:220px;
+
+}
+#writeup{
+    font-family: "Dancing Script", cursive; 
+    font-size: 40px;
+    margin-bottom: -0px;
+    color: white;
+    
+}
+h6{
+    font-size: 20px;
+    color: white;
+    margin-top: -2px;
+    margin-top: 10px;
+    width: 50%;
+    
+}
+#reservation_button{
+   width: 75%;
+   height: 50px;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
+   font-size: 15px;
+   font-weight: bolder;
+   color: #8eec0a;
+   text-spacing-trim: 50px;
+}
+.About_us{
+    margin-top: 8em;
+}
+.About{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 33em;
+
+}
+.line{
+    background-color: #8eec0a;
+    width: 12%;
+    height: 2px;
+    border-radius: 50px;
+    margin-left: -13%;
+
+}
+.line_about{
+    display: flex;
+    width: 22%;
+    margin-left: 4.5%;
+    justify-content: space-around;
+    padding: 0px;
+    
+}
+#us{
+    margin-top: -10px;
+    width: 60%;
+    height: 30px;
+    margin-left: -90px;
+    color: #8eec0a;
+    font-size: 15px;
+    font-weight: 200px;
+}
+.after_about{
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+    width: 80%;
+}
+.about_paragraph{
+    font-size: 16px;
+    font-family: cursive;
+}.about_left{
+    width: 50%;
+}
+
+.three_food img { 
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+.three_foodcontainer{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 200px ;
+    justify-content: space-between;
+}
+.about_right{
+    width: 50%;
+}
+.chef_image{
+    width: 90%;
+    margin: auto;
+    height: 270px;
+}
+.chef_image  img{
+    width: 100%;
+    height: 400px;
+    position: initial;
+    object-fit: cover;
+    margin-left: 10%;
+}
+.play{
+    margin-left: 55%;
+    margin-top: -14rem;
+}
+.menu{
+    height: 55em;
+
+}
+.menu_contentContainer{
+    margin-top: 5em;
+}
+.menu_writeup{
+    width: 35%;
+    height: 200px;
+    margin-left: 5%;
+}
+.menu_list{
+    height: 25em;
+    width: 100%;
+    margin: auto;
+
+}
+.menu_array{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    gap: 2.5%;
+}
+.food{
+    height: 370px;
+    flex: 0 0 17.5%;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    flex-shrink: 0;
+    transition: transform 0.5s ease-in-out;
+    
+}
+.food:hover .food_details {
+  bottom: 0;
+}
+#food_img{
+    width: 100%;
+    height: 370px;
+    position: relative;
+    border-radius: 3px; 
+}
+#price_container{
+    background-color: #8eec0a;
+    height: 50px;
+    width: 35%;
+    position: absolute;
+    top: -0em; 
+     border-radius: 3px; 
+     
+     text-align: center;
+}
+#price{
+    margin-top: 14px;
+    color: white;
+     font-size: 20px;
+     font-weight: bold;
+}
+/* #green_line{
+    height: 30px;
+    background-color: #8eec0a; }*/
+    
+
+.food_details{
+    
+    height: 210px;
+    width: 100%;
+    background-color: #8eec0a;
+    position: absolute;
+    bottom: -190px; 
+    display: block;
+    translate: 0 0;
+    transition: bottom 0.3s ease-in-out;
+}
+#food_name{
+    margin-left: 15%;
+    color: white;
+    width: 70%;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#food_writeup{
+    margin-left: 15%;
+    color: white;
+    width: 70%;
+}
+.foodarraycontrol{
+    text-align: center;
+    width: 7%;
+    margin: auto;
+    margin-top: 40px;
+    height: 20px;
+}
+
+#chef_heading{
+    color: #8eec0a;
+    text-align: center;
+    font-size: 15px; 
+}
+#chef_heading2{
+    text-align: center;
+    font-size: 40px; 
+    width: 35%;
+    font-weight: bolder;
+    margin: auto;
+}
+.the_chefs{
+    width: 90%;
+    height: 330px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.chefimage_container{
+    border: solid black 1px;
+    width: 32%;
+}
+.chef_images{
+    height: 250px;
+    width: 97%;
+    margin: auto;
+    margin-top: 5px  !important;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: 100%,100%
+    
+}
+#chef_image1{
+    background-image: url(./img/chefs-01.jpeg);
+}
+#chef_image2{
+    background-image: url(./img/chefs-02.jpeg);
+}
+#chef_image3{
+    background-image: url(./img/chefs-03.jpeg);
+    background-size: 100% 93%;
+}
+#chef_name{
+    text-align: center;
+    margin-top: -7px;
+}
+#chef_pos{
+    text-align: center;
+}
+.reservua{
+    margin-top: 10em;
+    background-image: url(./img/poeple\ in\ restaurant.jpeg);
+    height: 50em;
+    background-size: 100% 100%;
+    position: relative;
+}
+ .reservua .overlay{
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust opacity as needed */
+    z-index: 1;
+    height: 50em;
+}
+.contactus{
+    height: 40em;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.contact_right{
+
+}
+.contact_left{
+    margin-top:14em;
+    width: 50%;
+}
+.contactlinetop{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+
+
+}
+.contact_line{
+    background-color: white;
+    width: 8%;
+    height: 2px;
+    border-radius: 3px;
+    margin-top: 8px;
+
+}
+#contacttop{
+    width: 80%;
+    color: white;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#here{
+    color: white;
+    width: 100% ;
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+#here_writeup{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+     'Helvetica Neue', sans-serif;
+     font-size: 15px;
+
+}  
+#phone_number{
+    width: 47%;
+    height: 160px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+#awesomecontainer{
+    background-color: #8eec0a;
+    height: 60px;
+    width: 23%;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 40%;
+    text-align: center;
+}
+#phone_email{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 300px;
+    margin-top: 5em;
+}
+#emails{
+     font-size: 20px;
+     font-weight: bolder;
+     
+}
+.reservua_form{
+    background-color: white;
+    width: 45%;
+    height: 35em;
+    margin-top: 10em;
+    border-radius: 10px;
+    position: relative;
+}
+.table{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.under_reservation{
+    width: 80%;
+    margin: auto;
+
+}
+.reservation_inputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    margin-top: 1em;
+    color: black;
+    border-radius: 5px;
+    border: solid #8eec0a 1px;
+}
+#message_input{
+    width: 95%; 
+    height: 13em;
+
+}
+#submit_reservation{
+    background-color: #8eec0a;
+    height: 3em;
+    width: 97%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.special_meal{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3.5em !important;
+}
+.special_meal p{
+    font-weight: bolder;
+}
+.foot{
+    background-color: #8eec0a;
+    height: 15em;
+    margin-top: 4em;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    height: 10em;
+    
+}
+.footer_socials{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8eec0a;
+
+}
+.socials{
+    width: 20%;
+    height: 30%;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+.socials i {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #8eec0a;
+}
+.loggo-img img{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+#name2foot{
+    width: 50%;
+    height: 80px;
+    margin-left: px;
+
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.loggo{
+    width: 100%;
+    display: flex;
+    margin-top: 3em;
+    
+}
+.footer_bottom{
+    margin-top: 3em;
+    
+}
+#my_name{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+#footer_writeup{
+    color: white;
+    margin-left: 7%;
+    margin-bottom: 5em;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+
+
