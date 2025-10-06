@@ -16,7 +16,7 @@
     width: 100%;
     display: flex;
     gap: 40%;
-    margin-top: 14px;
+    margin-top: 9px;
     
   }
 
@@ -369,6 +369,8 @@
 }
 #footer_writeup{
   color: black;
+  width: 95%;
+  margin: auto;
   margin-top: 7em !important;
 }
 
